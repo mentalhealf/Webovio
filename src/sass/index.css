@@ -1,4 +1,8 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+footer {
+  display: flex;
+}
+
 .container {
   width: 1110px;
   margin: 0 auto;
@@ -108,11 +112,17 @@ li {
 
 .footer-about-item {
   list-style: none;
-  color: #B6C197;
+  color: #b6c197;
 }
 
 .footer-p {
-  color: #B6C197;
+  color: rgb(182, 193, 151);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 
 .footer-about-h3 {
@@ -126,4 +136,46 @@ li {
 .footer-phone {
   color: white;
   text-decoration: none;
+}
+
+.footer-about-item-touch {
+  color: rgb(182, 193, 151);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.footer-all-p {
+  color: rgb(182, 193, 151);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.footer-mailto {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-decoration: none;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 14px;
+}
+
+.footer-social-item-media {
+  border: none;
+  position: relative;
+  left: -175px;
+  bottom: -7px;
 }/*# sourceMappingURL=index.css.map */
