@@ -92,6 +92,16 @@ li {
   color: rgb(21, 41, 52);
 }
 
+.triangle-right:before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 10px;
+  border-style: solid;
+  border-width: 7px 0 7px 6.6px;
+  border-color: transparent transparent transparent #D4D6D4;
+}
+
 .alex-footer {
   background-image: url("../images/alex-footer-background.jpg");
 }
