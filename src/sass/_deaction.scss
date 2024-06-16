@@ -1,9 +1,69 @@
+.section-deaction {
+  width: 1110px;
+  height: 461px;
+}
+
+.deaction-ttl {
+  font-family: $poppins-font;
+  font-size: 36px;
+  font-weight: 700;
+  color: $dark-grey-color;
+  width: 607px;
+}
+
+.deaction-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.deaction-card {
+  width: 255px;
+  height: 309px;
+}
+
+.deaction-card-ttl {
+  font-family: $poppins-font;
+  font-size: 24px;
+  font-weight: 500;
+  color: $dark-grey-color;
+  width: 183px;
+  height: 68px;
+}
+
+.deaction-card-desc {
+  font-family: $poppins-font;
+  font-size: 14px;
+  color: $opaque-grey-color;
+  width: 194px;
+  height: 78px;
+}
+
+.deaction-more-desc {
+  margin-top: 56px;
+}
+
+.deaction-more-desc:hover{
+    .deaction-more-link {
+        color: $yellow-color;
+    }
+    .triangle-right:before {
+          border-color: transparent transparent transparent $yellow-color;
+    }
+}
+
+.deaction-more-link {
+  font-family: cursive;
+  font-size: 16px;
+  color: $grey-color;
+}
+
 .triangle-right:before {
-    content: "";
-    display: inline-block;
-    width: 5px;
-    height: 10px;
-    border-style: solid;
-    border-width: 7px 0 7px 6.6px;
-    border-color: transparent transparent transparent $grey-color;
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 10px;
+  border-style: solid;
+  border-width: 7px 0 7px 6.6px;
+  border-color: transparent transparent transparent $grey-color;
 }

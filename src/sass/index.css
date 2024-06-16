@@ -92,6 +92,64 @@ li {
   color: rgb(21, 41, 52);
 }
 
+.section-deaction {
+  width: 1110px;
+  height: 461px;
+}
+
+.deaction-ttl {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #4D533C;
+  width: 607px;
+}
+
+.deaction-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.deaction-card {
+  width: 255px;
+  height: 309px;
+}
+
+.deaction-card-ttl {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #4D533C;
+  width: 183px;
+  height: 68px;
+}
+
+.deaction-card-desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: rgba(33, 56, 66, 0.6);
+  width: 194px;
+  height: 78px;
+}
+
+.deaction-more-desc {
+  margin-top: 56px;
+}
+
+.deaction-more-desc:hover .deaction-more-link {
+  color: #FFD723;
+}
+.deaction-more-desc:hover .triangle-right:before {
+  border-color: transparent transparent transparent #FFD723;
+}
+
+.deaction-more-link {
+  font-family: cursive;
+  font-size: 16px;
+  color: #D4D6D4;
+}
+
 .triangle-right:before {
   content: "";
   display: inline-block;
