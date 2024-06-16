@@ -43,13 +43,13 @@
   margin-top: 56px;
 }
 
-.deaction-more-desc:hover{
-    .deaction-more-link {
-        color: $yellow-color;
-    }
-    .triangle-right:before {
-          border-color: transparent transparent transparent $yellow-color;
-    }
+.deaction-more-desc:hover {
+  .deaction-more-link {
+    color: $yellow-color;
+  }
+  .triangle-right:before {
+    border-color: transparent transparent transparent $yellow-color;
+  }
 }
 
 .deaction-more-link {
@@ -66,4 +66,84 @@
   border-style: solid;
   border-width: 7px 0 7px 6.6px;
   border-color: transparent transparent transparent $grey-color;
+}
+// resizing
+@media screen and (max-width: 480px) {
+  .section-deaction {
+    width: 480px;
+    height: 761px;
+    
+  }
+
+  .deaction-ttl {
+    font-size: 26px;
+    width: 407px;
+  }
+
+  .deaction-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .deaction-card {
+    width: 210px;
+  }
+
+  .deaction-card-ttl {
+    font-size: 20px;
+    width: 163px;
+  }
+
+  .deaction-card-desc {
+    font-size: 14px;
+    width: 174px;
+  }
+
+
+  .deaction-more-link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .section-deaction {
+    width: 768px;
+    height: 761px;
+    
+  }
+
+  .deaction-ttl {
+    font-size: 32px;
+    width: 707px;
+  }
+
+  .deaction-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .deaction-card {
+    width: 255px;
+  }
+
+  .deaction-card-ttl {
+    font-size: 24px;
+    width: 183px;
+  }
+
+  .deaction-card-desc {
+    font-size: 14px;
+    width: 194px;
+  }
+
+
+  .deaction-more-link {
+    font-size: 16px;
+  }
 }
