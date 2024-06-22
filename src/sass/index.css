@@ -105,6 +105,69 @@ ul {
   color: rgb(21, 41, 52);
 }
 
+.section-deaction {
+  width: 1110px;
+}
+
+.deaction-ttl {
+  width: 607px;
+  height: 92px;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #4D533C;
+}
+
+.deaction-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.deaction-card {
+  width: 255px;
+  height: 309px;
+}
+
+.deaction-card-ttl {
+  width: 168px;
+  height: 68px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #4D533C;
+  margin: 27px 42px 20px 30px;
+}
+
+.deaction-card-desc {
+  width: 194px;
+  height: 104px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba 33, 56, 66, 0.6;
+  margin-left: 30px;
+}
+
+.deaction-more-desc {
+  margin-left: 30px;
+  margin-bottom: 36px;
+}
+.deaction-more-desc :hover {
+  color: #FFD723;
+}
+.deaction-more-desc :hover .triangle-right:before {
+  border-color: transparent transparent transparent #FFD723;
+}
+
+.deaction-more-link {
+  font-family: cursive;
+  font-weight: 400;
+  font-size: 16px;
+  color: #D4D6D4;
+}
+
 .triangle-right:before {
   content: "";
   display: inline-block;
