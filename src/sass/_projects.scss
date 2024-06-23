@@ -133,3 +133,11 @@
   color: rgba(21, 41, 52, 1);
   margin-top: 4px;
 }
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
