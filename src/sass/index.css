@@ -52,11 +52,14 @@ ul {
 .box__big {
   display: flex;
   flex-direction: row;
+  margin-left: auto;
 }
 
 .box__big__right {
   display: flex;
   flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .title {
@@ -66,6 +69,7 @@ ul {
   line-height: 48px;
   text-align: left;
   color: rgb(77, 83, 60);
+  margin-bottom: 24px;
 }
 
 .text {
@@ -75,15 +79,56 @@ ul {
   line-height: 26px;
   text-align: left;
   color: rgba(33, 56, 66, 0.6);
+  margin-bottom: 90px;
+  width: 421px;
 }
 
-.name {
+.context {
   font-family: Poppins;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   text-align: left;
-  color: rgb(77, 83, 60);
+  color: rgb(212, 214, 212);
+}
+
+.box__img {
+  position: relative;
+}
+
+.box__img__right {
+  position: relative;
+}
+
+.projects__box {
+  margin-right: 135px;
+  margin-left: 54px;
+  margin-top: 80px;
+}
+
+.projects__box__right {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.comment {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1459);
+  width: 453px;
+  position: absolute;
+  right: -40px;
+  bottom: -65px;
+}
+
+.comment__right {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1459);
+  width: 453px;
+  position: absolute;
+  left: -40px;
+  bottom: -65px;
 }
 
 .comment__text {
@@ -94,6 +139,30 @@ ul {
   line-height: 26px;
   text-align: left;
   color: rgb(77, 83, 60);
+  margin: 30px 30px 24px 30px;
+}
+
+.who {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.who__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+}
+
+.name {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(77, 83, 60);
+  margin-bottom: 0;
 }
 
 .too {
@@ -103,8 +172,26 @@ ul {
   line-height: 21px;
   text-align: left;
   color: rgb(21, 41, 52);
+  margin-top: 4px;
 }
 
+@-webkit-keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .section-deaction {
   width: 1110px;
 }
