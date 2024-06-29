@@ -1,9 +1,151 @@
-.triangle-right:before {
-    content: "";
+.section-deaction {
+    width: 1110px;
+  }
+
+  .deaction-ttl {
+    width: 607px;
+    height: 92px;
+    margin: 0;
+    font-family: $poppins-font;
+    font-weight: 700;
+    font-size: 36px;
+    color: $dark-grey-color;
+  }
+
+  .deaction-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .deaction-card {
+    width: 255px;
+    height: 309px;
+  }
+
+  .deaction-card-ttl {
+    width: 168px;
+    height: 68px;
+    font-family: $poppins-font;
+    font-weight: 500;
+    font-size: 24px;
+    color: $dark-grey-color;
+    margin: 27px 42px 20px 30px;
+  }
+
+  .deaction-card-desc {
+    width: 194px;
+    height: 104px;
+    font-family: $poppins-font;
+    font-weight: 400;
+    font-size: 14px;
+    color: $opaque-grey-color;
+    margin-left: 30px;
+  }
+
+  .deaction-more-desc {
+    :hover {
+      color: $yellow-color;
+      .triangle-right:before {
+        content: '';
+        border-color: transparent transparent transparent $yellow-color;
+      }
+    }
+    margin-left: 30px;
+    margin-bottom: 36px;
+  }
+
+  .deaction-more-link {
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 16px;
+    color: $grey-color;
+  }
+
+  .triangle-right:before {
+    content: '';
     display: inline-block;
     width: 5px;
     height: 10px;
     border-style: solid;
     border-width: 7px 0 7px 6.6px;
     border-color: transparent transparent transparent $grey-color;
+  }
+
+@media screen and (min-width: 480px) and (max-width: 700px){
+  .section-deaction {
+    width: 480px;
+  }
+  .deaction-ttl {
+    width: 350px;
+    font-size: 26px;
+  }
+  .deaction-list {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  .deaction-card {
+    width: 190px;
+    height: 309px;
+  }
+  .deaction-card-ttl {
+    width: 128px;
+    height: 68px;
+    font-size: 20px;
+    margin: 27px 42px 20px 30px;
+  }
+  .deaction-card-desc {
+    width: 154px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 30px;
+  }
+  .deaction-more-desc {
+    margin-left: 30px;
+    margin-bottom: 36px;
+  }
+  .deaction-more-link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+  .section-deaction {
+    width: 768px;
+  }
+  .deaction-ttl {
+    width: 690px;
+    font-size: 30px;
+  }
+  .deaction-list {
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  .deaction-card {
+    width: 255px;
+    height: 309px;
+  }
+  .deaction-card-ttl {
+    width: 148px;
+    height: 68px;
+    font-size: 22px;
+    margin: 27px 42px 20px 30px;
+  }
+  .deaction-card-desc {
+    width: 174px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 30px;
+  }
+  .deaction-more-desc {
+    margin-left: 30px;
+    margin-bottom: 36px;
+  }
+  .deaction-more-link {
+    font-size: 16px;
+  }
 }
