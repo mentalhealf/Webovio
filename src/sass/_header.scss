@@ -1,9 +1,71 @@
+:root {
+    --ligh-color: #FFFFFF;
+    --cheese-color: #FFD723;
+}
 .head {
+    height: 811px;
+    width: 1441px;
     background-image: url('../images/Bitmap.jpg');
 }
 .logos {
+    padding-top: 23px;
     display: flex;
     align-items: flex-start;
-
-
+    flex-wrap: wrap;
 }
+.fir {
+    margin-left: 165px;
+}
+.sec {
+    margin-left: 814.71px;
+}
+.para {
+    margin-top: 121px;
+    height: 412px;
+    width: 616px;
+    margin-left: 166px;
+}
+.pa {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: var(--ligh-color);
+}
+.pe {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    line-height: 74px;
+    font-weight: bold;
+    color: var(--ligh-color);
+}
+.po {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: var(--ligh-color);
+}
+.linko {
+    text-decoration: none;
+    line-height: 45px;
+    color: var(--cheese-color);
+}
+.linko:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 320px) {
+    .head {
+        background-image: url('../images/Bitmap (1).jpg');
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .head {
+        background-image: url('../images/Bitmap (2).jpg');
+    }
+  }
+  
+  @media screen and (min-width: 1441px) {
+    .head {
+        background-image: url('../images/Bitmap.jpg');
+    }
+  }
