@@ -6,6 +6,13 @@
   gap: 133px;
   margin-bottom: 100px;
 }
+@media screen and (max-width: 767px) {
+  .box__first {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .title__special {
   font-family: Poppins;
   font-size: 36px;
@@ -27,11 +34,21 @@
   flex-direction: row;
   margin-left: auto;
 }
+@media screen and (max-width: 767px) {
+  .box__big { 
+  flex-direction: column;
+  }
+}
 .box__big__right {
   display: flex;
   flex-direction: row;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+@media screen and (max-width: 767px) {
+  .box__big__right { 
+  flex-direction: column-reverse;
+  }
 }
 .title {
   font-family: Poppins;
@@ -80,20 +97,17 @@
   border-radius: 8px;
   box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1459);
   width: 453px;
-  position: absolute;
   right: -40px;
-  bottom: -65px;
+  bottom: -65px; position: absolute;
 }
 .comment__right {
   background-color: rgba(255, 255, 255, 1);
   border-radius: 8px;
   box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1459);
   width: 453px;
-  position: absolute;
   left: -40px;
-  bottom: -65px;
+  bottom: -65px; position: absolute;
 }
-
 .comment__text {
   font-family: Poppins;
   font-size: 16px;

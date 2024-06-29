@@ -31,6 +31,13 @@ ul {
   margin-bottom: 100px;
 }
 
+@media screen and (max-width: 767px) {
+  .box__first {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .title__special {
   font-family: Poppins;
   font-size: 36px;
@@ -55,6 +62,11 @@ ul {
   margin-left: auto;
 }
 
+@media screen and (max-width: 767px) {
+  .box__big {
+    flex-direction: column;
+  }
+}
 .box__big__right {
   display: flex;
   flex-direction: row;
@@ -62,6 +74,11 @@ ul {
   margin-bottom: 100px;
 }
 
+@media screen and (max-width: 767px) {
+  .box__big__right {
+    flex-direction: column-reverse;
+  }
+}
 .title {
   font-family: Poppins;
   font-size: 36px;
@@ -116,9 +133,9 @@ ul {
   border-radius: 8px;
   box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1459);
   width: 453px;
-  position: absolute;
   right: -40px;
   bottom: -65px;
+  position: absolute;
 }
 
 .comment__right {
@@ -126,9 +143,9 @@ ul {
   border-radius: 8px;
   box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1459);
   width: 453px;
-  position: absolute;
   left: -40px;
   bottom: -65px;
+  position: absolute;
 }
 
 .comment__text {
